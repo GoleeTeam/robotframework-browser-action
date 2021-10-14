@@ -14,7 +14,7 @@ jobs:
   robot_test:
     runs-on: ubuntu-latest
     - name: Robot Framework
-      uses: GoleeTeam/robotframework-github-action@v1.0
+      uses: GoleeTeam/robotframework-browser-action@v1.0
       with:
         image: ???
         image_version: latest
