@@ -8,6 +8,6 @@ docker run \
  -e SCREEN_COLOR_DEPTH=$SCREEN_COLOR_DEPTH \
  -e SCREEN_HEIGHT=$SCREEN_HEIGHT \
  -e SCREEN_WIDTH=$SCREEN_WIDTH \
- -v $REPORTS_DIR:/opt/robotframework/reports:Z \
- -v $TESTS_DIR:/opt/robotframework/tests:Z \
+ -v $REPORTS_DIR:/home/pwuser/reports:Z \
+ -v $TESTS_DIR:/home/pwuser/tests:Z \
  $IMAGE:$IMAGE_VERSION
