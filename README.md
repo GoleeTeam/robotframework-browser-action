@@ -1,4 +1,4 @@
-# Robot Framework GitHub Action
+# Robot Framework Browser GitHub Action
 Github action can be used to run Robot Framework tests.
 Based on https://github.com/tarathep/robotframework-github-action
 using https://hub.docker.com/r/ppodgorsek/robot-framework for base image.
